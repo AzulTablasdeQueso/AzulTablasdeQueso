@@ -1,0 +1,61 @@
+.principalRegistro{
+    background-color: rgb(130, 151, 215);
+    width: 100%;
+    height: 520px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro{
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 315px;
+    height: 480px;
+    box-shadow: 6px 6px 6px  rgb(38, 38, 112);
+    background-color: white;
+}
+
+.logoRegistro{
+    position: relative;
+    left: 80px;
+    top: 15px;
+}
+
+.cajaTexto{
+    width: 260px;
+    height: 45px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    outline: none;
+    margin: 6px;
+    position: relative;
+    left: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgb(38, 38, 112);
+}
+
+.botonRegistro2{
+    width: 150px;
+    height: 55px;
+    font-size: 20px;
+    background-color: rgb(38, 38, 112);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    top: 16px;
+    left: 80px;
+}
+
+.botonRegistro2:hover{
+    background-color: rgb(16, 16, 54);
+}
